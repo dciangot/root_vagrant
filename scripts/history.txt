@@ -1,0 +1,56 @@
+#!/bin/bash
+
+HISTORY
+    1  wget wget https://root.cern.ch/download/root_v6.16.00.source.tar.gz
+    2  tar -xzvf root_v6.16.00.source.tar.gz
+    3  mkdir /opt/root
+    4  SOURCE=$PWD/root-6.16.00
+    5  cd /opt/root 
+    6  cd -
+    7  export mkdir /opt/root
+    8  SOURCE=$PWD/root-6.16.00
+    9  cd /opt/root 
+   10  cd -
+   11  export SOURCE=$PWD/root-6.16.00
+   12  cd /opt/root/
+   13  cmake $SOURCE
+   14  apt search cmake
+   15  apt search cmake3
+   16  wget https://github.com/Kitware/CMake/releases/download/v3.16.0/cmake-3.16.0-Linux-x86_64.sh
+   17  apt remove cmake
+   18  source cmake-3.16.0-Linux-x86_64.sh 
+   19  ./cmake-3.16.0-Linux-x86_64.sh 
+   20  chmod +x ./cmake-3.16.0-Linux-x86_64.sh 
+   21  ./cmake-3.16.0-Linux-x86_64.sh 
+   22  cp -r cmake-3.16.0-Linux-x86_64/* /
+   23  cmake $SOURCE
+   24  /bin/cmake $SOURCE
+   25  cmake --build . -- -j4
+   26  /bin/cmake --build . -- -j4
+   27  ls
+   28  source bin/thisroot.sh 
+   29  root
+   30  rm -fr $SOURCE 
+   31  df -h
+   32  gedit
+   33  apt install gedit
+   34  apt clean all
+   35  apt-get clean
+   36  sudo apt-get clean
+   37  sudo apt-get autoremove
+   38  ls /opt/root/bin/thisroot.sh
+   39  cd /opt/root 
+   40  source bin/thisroot.sh 
+   41  make install
+   42  /bin/cmake --build . -- -j4
+   43  source bin/thisroot.sh 
+   44  ls
+   45  ls -ltrh
+   46  du -h --max-depth=1
+   47  du -h --max-depth=1 build/
+   48  sudo apt-get autoremove --purge
+   49  df -g
+   50  df -h
+   51  g++
+   52  df -h
+   53  history
