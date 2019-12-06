@@ -47,4 +47,4 @@ Then open the extracted folder and double click on the file called `install_and_
 At the end of the process you should be able to find your machine on the VirtualBox control panel and to open it in a window just double clicking on it as below:
 ![start](img/vbox.png)
 
-Enjoy your VM!
+Enjoy your VM! Your username for the machine is `vagrant` and you password the same (`vagrant`)
