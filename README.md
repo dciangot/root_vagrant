@@ -1,6 +1,6 @@
 # Setup a virtual machine with g++ and ROOT
 
-## On Windows
+## On Windows 10
 
 You wiil need to install VirtualBox and Vagrant. Instructions below.
 
