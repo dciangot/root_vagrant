@@ -10,7 +10,7 @@ Press Window button and then type power. You should see `Windows PowerShell` pro
 
 ![hyper](img/hyper.png)
 
-This will open a terminal, you have not to insert the command below and to press enter:
+This will open a terminal, you have to insert the command below and to press enter:
 
 ```
 Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All
@@ -48,3 +48,9 @@ At the end of the process you should be able to find your machine on the Virtual
 ![start](img/vbox.png)
 
 Enjoy your VM! Your username for the machine is `vagrant` and you password the same (`vagrant`)
+
+### If your VM does not start
+
+This is probably due to BIOS configuration of your PC.
+Try solution 1 first here: https://ivanderevianko.com/2015/06/fix-vt-x-is-not-available-verr_vmx_no_vmx-in-virtualbox
+If it does not work try the solution 2.
